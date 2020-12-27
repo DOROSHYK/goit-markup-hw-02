@@ -1,3 +1,13 @@
+/* color: #212121 основний колір */
+/* масивний текст color: #757575 */
+/* білий колір color: #FFFFFF */
+/* колір силок color: #2196F3*/
+/* footer color  background: #2F303A */
+/* our team background: #F5F4FA*/
+body {
+  background-color: #ffffff;
+  color: #757575;
+}
 
 .logo {
   color: black;
