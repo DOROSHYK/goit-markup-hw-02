@@ -1,18 +1,45 @@
-/* color: #212121 основний колір */
-/* масивний текст color: #757575 */
-/* білий колір color: #FFFFFF */
-/* колір силок color: #2196F3*/
-/* footer color  background: #2F303A */
-/* our team background: #F5F4FA*/
+/* основний колір заголовків| color: #212121 */
+/* масивний текст| color: #757575 */
+/* білий колір(фон,герой)| color: #FFFFFF */
+/* колір силок| color: #2196F3*/
+/* footer color (фон)| background: #2F303A */
+/* our team(фон) |background: #F5F4FA*/
+
+/*кастомні властивості,css перемінні
+:root{
+--main-color-titles: color: #212121;
+--massive-text: color: #757575;
+--whit-color: color: #FFFFFF ;
+--color-forces: color: #2196F3;
+--footer-color-background:  #2F303A;
+--our-team: #F5F4FA
+}
+           приклад
+.site-nav .link {
+ color:  var(--main-color-titles)
+}*/
+
+
 body {
   background-color: #ffffff;
   color: #757575;
 }
-
+header {
+  display: inline;
+}
+/* nav*/
 .logo {
-  color: black;
+  color: #2196f3;
 }
 
-ul {
-  list-style: none;
+.site-nav .link {
+ color:  #212121;
 }
+
+.site-nav .link:hover {
+   color: #2196f3;
+}
+
+.section .section-title {
+  color:  #212121;
+
