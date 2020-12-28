@@ -19,7 +19,6 @@
  color:  var(--main-color-titles)
 }*/
 
-
 body {
   background-color: #ffffff;
   color: #757575;
@@ -33,13 +32,13 @@ header {
 }
 
 .site-nav .link {
- color:  #212121;
+  color: #212121;
 }
 
 .site-nav .link:hover {
-   color: #2196f3;
+  color: #2196f3;
 }
 
 .section .section-title {
-  color:  #212121;
-
+  color: #212121;
+}
