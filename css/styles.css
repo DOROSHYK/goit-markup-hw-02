@@ -5,20 +5,20 @@
 /* footer color (фон)| background: #2F303A */
 /* our team(фон) |background: #F5F4FA*/
 
-/*кастомні властивості,css перемінні
-:root{
---main-color-titles: color: #212121;
---massive-text: color: #757575;
---whit-color: color: #FFFFFF ;
---color-forces: color: #2196F3;
---footer-color-background:  #2F303A;
---our-team: #F5F4FA
+кастомні властивості,
+css перемінні :root {
+  --main-color-titles-color: #212121;
+  --massive-text-color: #757575;
+  --white-bg-color: #ffffff;
+  --color-forces-color: #2196f3;
+  --footer-background-color: #2f303a;
+  --our-team: #f5f4fa;
 }
-           приклад
+/*          приклад
 .site-nav .link {
  color:  var(--main-color-titles)
-}*/
-
+}
+*/
 body {
   background-color: #ffffff;
   color: #757575;
@@ -43,6 +43,10 @@ ul {
 
 .site-nav .link {
   color: #212121;
+}
+
+.site-nav .link.current {
+  color: #2196f3;
 }
 
 .site-nav .link:hover,
