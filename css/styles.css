@@ -26,19 +26,40 @@ body {
 header {
   display: inline;
 }
+ul {
+  list-style: none;
+}
 /* nav*/
 .logo {
   color: #2196f3;
+}
+.logo-black {
+  color: #000000;
+}
+
+.logo-white {
+  color: #ffffff;
 }
 
 .site-nav .link {
   color: #212121;
 }
 
-.site-nav .link:hover {
+.site-nav .link:hover,
+.site-nav .link:focus {
   color: #2196f3;
 }
 
 .section .section-title {
   color: #212121;
+}
+
+/* footer*/
+.background {
+  background-color: #2f303a;
+}
+
+.button {
+  color: #ffffff;
+  background-color: #2196f3;
 }
