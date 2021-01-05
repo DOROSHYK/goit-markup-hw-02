@@ -1,12 +1,4 @@
-/* основний колір заголовків| color: #212121 */
-/* масивний текст| color: #757575 */
-/* білий колір(фон,герой)| color: #FFFFFF */
-/* колір силок| color: #2196F3*/
-/* footer color (фон)| background: #2F303A */
-/* our team(фон) |background: #F5F4FA*/
-
-кастомні властивості,
-css перемінні :root {
+:root {
   --main-color-titles-color: #212121;
   --massive-text-color: #757575;
   --white-bg-color: #ffffff;
@@ -14,14 +6,15 @@ css перемінні :root {
   --footer-background-color: #2f303a;
   --our-team: #f5f4fa;
 }
-/*          приклад
-.site-nav .link {
- color:  var(--main-color-titles)
-}
-*/
+/* основний колір заголовків| color: #212121 */
+/* масивний текст| color: #757575 */
+/* білий колір(фон,герой)| color: #FFFFFF */
+/* колір силок| color: #2196F3 */
+/* footer color (фон)| background: #2f303a  */
+/* our team(фон) |background: #F5F4FA */
 body {
-  background-color: #ffffff;
-  color: #757575;
+  background-color: var(--white-bg-color);
+  color: var(--massive-text-color);
 }
 header {
   display: inline;
@@ -31,50 +24,51 @@ ul {
 }
 /* nav*/
 .logo {
-  color: #2196f3;
+  color: var(--color-forces-color);
 }
 .logo-black {
-  color: #000000;
+  color: var(--main-color-titles-color);
 }
 
 .logo-white {
-  color: #ffffff;
+  color: var(--white-bg-color);
 }
 
+/*navigate*/
 .site-nav .link {
-  color: #212121;
+  color: var(--main-color-titles-color);
 }
 
 .site-nav .link.current {
-  color: #2196f3;
+  color: var(--color-forces-color);
 }
 
 .site-nav .link:hover,
 .site-nav .link:focus {
-  color: #2196f3;
+  color: var(--color-forces-color);
 }
 
 .section .section-title {
-  color: #212121;
+  color: var(--main-color-titles-color);
 }
 
 .button {
-  color: #ffffff;
-  background-color: #2196f3;
+  color: var(--white-bg-color);
+  background-color: var(--color-forces-color);
 }
 .team {
-  background-color: #f5f4fa;
+  background-color: var(--our-team);
 }
 /*portfolio navigate*/
 
 .section .section-nav:hover,
 .section .section-nav:focus {
-  color: #ffffff;
-  background-color: #2196f3;
+  color: var(--white-bg-color);
+  background-color: var(--color-forces-color);
 }
 
 /* footer*/
 
 .background {
-  background-color: #2f303a;
+  background-color: var(--footer-background-color);
 }
