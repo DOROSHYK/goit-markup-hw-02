@@ -58,11 +58,6 @@ ul {
   color: #212121;
 }
 
-/* footer*/
-.background {
-  background-color: #2f303a;
-}
-
 .button {
   color: #ffffff;
   background-color: #2196f3;
@@ -76,4 +71,10 @@ ul {
 .section .section-nav:focus {
   color: #ffffff;
   background-color: #2196f3;
+}
+
+/* footer*/
+
+.background {
+  background-color: #2f303a;
 }
