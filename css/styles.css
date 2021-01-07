@@ -127,6 +127,9 @@ ul {
 }
 
 /*portfolio navigate*/
+.navigation .nav-title {
+  color: var(--main-color-titles-color);
+}
 
 .button {
   color: var(--white-bg-color);
@@ -134,8 +137,8 @@ ul {
   font-family: inherit;
 }
 
-.section .section-nav:hover,
-.section .section-nav:focus {
+.navigation .nav-title:hover,
+.navigation .nav-title:focus {
   color: var(--white-bg-color);
   background-color: var(--color-forces-color);
 
@@ -144,6 +147,11 @@ ul {
   line-height: 1.6;
   text-align: center;
   letter-spacing: var(--main-letter-spacing);
+}
+
+/*examples*/
+
+.examples .examples-works {
 }
 
 /* footer*/
