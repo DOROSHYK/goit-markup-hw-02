@@ -40,6 +40,7 @@ ul {
 
   font-size: 26px;
   line-height: 1.2;
+  text-decoration: none;
 }
 
 .logo-black {
@@ -54,6 +55,11 @@ ul {
 
 .site-nav .link {
   color: var(--main-color-titles-color);
+  text-decoration: none;
+}
+
+.site-nav .text-secondary {
+  color: var(--massive-text-color);
 }
 
 .site-nav .link.current {
@@ -176,4 +182,22 @@ ul {
 
 footer {
   background-color: var(--footer-background-color);
+}
+
+footer .link {
+  text-decoration: none;
+  color: rgba(255, 255, 255, 0.6);
+  font-style: normal;
+  font-size: 14px;
+  line-height: 1, 71;
+  letter-spacing: var(--main-letter-spacing);
+}
+
+footer .link:hover,
+footer .link:focus {
+  color: var(--color-forces-color);
+}
+
+footer .link.color {
+  color: var(--white-bg-color);
 }
