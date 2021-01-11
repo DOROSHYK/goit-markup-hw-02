@@ -22,6 +22,10 @@ body {
   letter-spacing: var(--main-letter-spacing);
 }
 
+a {
+  text-decoration: none;
+}
+
 header {
   display: inline;
 }
@@ -185,11 +189,10 @@ footer {
 }
 
 footer .link {
-  text-decoration: none;
   color: rgba(255, 255, 255, 0.6);
   font-style: normal;
   font-size: 14px;
-  line-height: 1, 71;
+  line-height: 1.7;
   letter-spacing: var(--main-letter-spacing);
 }
 
